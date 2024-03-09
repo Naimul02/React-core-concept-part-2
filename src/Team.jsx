@@ -1,6 +1,8 @@
 import { useState } from "react"
 
 export default function Team(){
+
+  // state bolte kono ekta obosthe k bujhano hoye thake, je obostha change hoite pare.
   const [team ,setTeam] = useState(11);
   const  handleAdd = () => {
       const newTeam = team + 1;
